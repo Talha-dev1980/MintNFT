@@ -2,7 +2,7 @@
 import './App.css';
 import { useState } from 'react';
 import { ethers } from 'ethers';
-import { mintNFT } from ".mint.js";
+import { mintNFT } from "./mint.js";
 
 function App() {
   const [walletAddress, setWalletAddress] = useState("0x145645...12312");
